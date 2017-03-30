@@ -1,7 +1,7 @@
 require('./style.css')
 var h = require('hyperscript')
 var fade = require('./fade')
-var cards = require('./cards')
+var cards = require('./cards-nodeschool')
 
 var FADE_DURATION = 1000
 var SLIDE_DURATION = 15000
