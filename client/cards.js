@@ -14,5 +14,5 @@ module.exports = [
   require('./cards/youtube'),
   require('./cards/sponsors-wanted'),
   require('./cards/slack'),
-  require('./cards/volunteer'),
+  require('./cards/volunteer')
 ]
