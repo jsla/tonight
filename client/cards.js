@@ -7,7 +7,7 @@ module.exports = [
 
   require('./cards/lunch'),
   require('./cards/speakers-wanted'),
-  // require('./cards/sponsor2'),
+  require('./cards/sponsor2'),
   require('./cards/speaker2'),
   require('./cards/next'),
 
@@ -15,5 +15,4 @@ module.exports = [
   require('./cards/sponsors-wanted'),
   require('./cards/slack'),
   require('./cards/volunteer'),
-  require('./cards/fullstack-react')
 ]
