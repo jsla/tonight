@@ -1,8 +1,8 @@
 var h = require('hyperscript')
 
 module.exports = h('.speaker',
-  h('h1', 'Reshape: Transform HTML With Javascript Plugins'),
-  h('h2', 'Jeff Escalante'),
+  h('h1', 'The Peer-to-peer Web'),
+  h('h2', 'Paul Frazee'),
 
-  h('img', {src: '/img/speakers/jeff-escalante.jpg', style: {width: '50%'}})
+  h('img', {src: '/img/speakers/paul-frazee.png', style: {width: '50%'}})
 )
