@@ -1,7 +1,7 @@
 var h = require('hyperscript')
 
-module.exports = h('.drinks',
+module.exports = h('.sponsor',
   h('.map',
-    h('img.frame', {src: '/img/sponsors/host-edmunds.png'})
+    h('img.frame', {src: '/img/sponsors/host-headspace.png'})
   )
 )

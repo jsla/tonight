@@ -3,7 +3,7 @@ var h = require('hyperscript')
 module.exports = h('.next',
   h('h1', {style: {'font-size': '400%'}}, 'Next js.la'),
 
-  h('h1', 'Thursday, May 28th at TigerText'),
+  h('h1', 'Thursday, September 28th at TigerText'),
 
   h('div', {style: {'margin-top': '10%'}},
     h('h2', 'Brian Mau'),
