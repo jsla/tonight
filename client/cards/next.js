@@ -10,6 +10,13 @@ module.exports = h('.next',
     h('h2', 'Peer to Peer Video Streaming with WebRTC')
   ),
 
+  /*
+  h('div', {style: {'margin-top': '10%'}},
+    h('h2', ''),
+    h('h2', '')
+  ),
+  */
+
   h('div', {style: {'margin-top': '10%'}},
     h('h2', 'Mark your calendar -- tickets will go fast.'),
     h('h2', 'Join the mailing list to get tickets:'),
