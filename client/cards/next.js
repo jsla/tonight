@@ -3,12 +3,7 @@ var h = require('hyperscript')
 module.exports = h('.next',
   h('h1', {style: {'font-size': '400%'}}, 'Next js.la'),
 
-  h('h1', 'Thursday, September 28th at TigerText'),
-
-  h('div', {style: {'margin-top': '10%'}},
-    h('h2', 'Brian Mau'),
-    h('h2', 'Peer to Peer Video Streaming with WebRTC')
-  ),
+  h('h1', 'Thursday, October 26th at Nation Builder'),
 
   /*
   h('div', {style: {'margin-top': '10%'}},
@@ -16,6 +11,11 @@ module.exports = h('.next',
     h('h2', '')
   ),
   */
+
+  h('div', {style: {'margin-top': '10%'}},
+    h('h2', 'Justin Dorfman'),
+    h('h2', 'Let’s talk about SRI')
+  ),
 
   h('div', {style: {'margin-top': '10%'}},
     h('h2', 'Mark your calendar -- tickets will go fast.'),
