@@ -1,8 +1,11 @@
 var h = require('hyperscript')
 
 module.exports = h('.speaker',
-  h('h1', 'Peer to Peer Video Streaming with WebRTC'),
-  h('h2', 'Brian Mau'),
+  h('h1', 'Let\'s Talk about SRI'),
+  h('h2', 'Justin Dorfman'),
 
-  h('img', {src: '/img/speakers/brian-mau.jpg', style: {width: '50%'}})
+  h('img', {
+    src: 'https://pbs.twimg.com/profile_images/885377513450491904/YND5q_CG_400x400.jpg',
+    style: {width: '512px'}
+  })
 )
