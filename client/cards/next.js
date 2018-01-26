@@ -1,13 +1,13 @@
 var h = require('hyperscript')
 
 module.exports = h('.next',
-  h('h1', {style: {'font-size': '400%'}}, 'Coming Up'),
+  h('h1', {style: {'font-size': '400%'}}, 'Next js.la'),
 
-  h('h1', 'Saturday, December 9th'),
+  h('h1', 'Thursday, February 22nd'),
 
   h('div', {style: {'margin-top': '10%'}},
-    h('h1', 'js.soiree'),
-    h('h2', 'js.la\'s 3rd Annual Holiday Party')
+    h('h2', 'Greg Westneat: Render All Over the Damn Place with React Native'),
+    h('h2', 'Alex Tamoykin: Serverless Microservices with AWS Lambda and API Gateway')
   ),
 
   h('div', {style: {'margin-top': '10%'}},

@@ -164,3 +164,7 @@ iframe{
   height: 100%;
   border: none;
 }
+
+.sponsor img.frame {
+  background: white
+}
