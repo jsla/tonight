@@ -1,0 +1,97 @@
+{
+  "current": {
+    "datetime": "Thursday February 22nd, 2018 7pm",
+    "date": "2/22/2018 19:00:00",
+    "unixTime": 1519286400000,
+    "host": {
+      "address": "2401 Colorado Ave, Santa Monica, CA 90404",
+      "name": "Edmunds.com",
+      "url": "https://www.edmunds.com/careers/",
+      "misc": ""
+    },
+    "speakers": [
+      {
+        "title": "Render All Over the Damn Place with React Native",
+        "name": "Greg Westneat",
+        "image": "https://avatars0.githubusercontent.com/u/2213636?s=400&v=4",
+        "twitter": "leggomuhgreggo",
+        "github": "leggomuhgreggo",
+        "description": "This talk is about the concept of \"cross-platform rendering,\" where one set of view-layer primitives can be used as abstractions to render across different platforms' view-APIs. \n\"Web? iOS & Android? TV!? All with one 'effin set of templates?\" Youbetcha. \nThis talk will focus on how React Native is used for cross-platform development, and cover some of the prominent technologies and challenges involved in making \"Universal\" React Native apps for web and mobile. \n",
+        "video": "",
+        "videoimg": ""
+      },
+      {
+        "title": "Serverless Microservices with AWS Lambda and API Gateway",
+        "name": "Alex Tamoykin",
+        "image": "https://pbs.twimg.com/profile_images/857096216684965888/iRmlafTf_400x400.jpg",
+        "twitter": "fsproru",
+        "github": "fsproru",
+        "description": "This talk is about serverless microservices with AWS Lambda and API Gateway. \nWe'll talk about pros and cons of using serverless as well as microservices, and I'll demonstrate how to set it up with AWS Lambda and API Gateway.",
+        "video": "",
+        "videoimg": ""
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Edmunds.com",
+        "logo": "https://js.la/images/hosts/host-edmunds.png",
+        "url": "https://www.edmunds.com/careers/"
+      },
+      {
+        "name": "Codesmith",
+        "logo": "http://js.la/images/hosts/host-codesmith.png",
+        "url": "https://codesmith.io"
+      },
+      {
+        "name": "Twilio",
+        "logo": "https://www.twilio.com/marketing/bundles/company-brand/img/logos/red/twilio-logo-red.png",
+        "url": "http://twilio.com"
+      }
+    ]
+  },
+  "next": {
+    "datetime": "Thursday March 29th, 2018 7pm",
+    "date": "3/29/2018 19:00:00",
+    "unixTime": 1522306800000,
+    "host": {
+      "address": "",
+      "name": "TBA",
+      "url": "https://js.la",
+      "misc": ""
+    },
+    "speakers": [
+      {
+        "title": "The Outsourcing Rollercoaster",
+        "name": "Alli McKee",
+        "image": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAuyAAAAJDQyNDAyZWJjLWJhZjktNGY2MC1hZTJhLWE2NDgzMDc0MDJlZA.jpg",
+        "twitter": "founderofstick",
+        "github": "allimckee",
+        "description": "I'd love to talk about what it's like to build an early stage product with an outsourced team, both the pros and cons. First with a team in China, then in the Ukraine with a CTO here, then solely with a team in the Ukraine + NYC. Learnings that can be applied to teams big and small, especially in the early stages of a product. ",
+        "video": "",
+        "videoimg": ""
+      },
+      {
+        "title": "LoopBack at Wordnik",
+        "name": "Erin McKean",
+        "image": "https://avatars2.githubusercontent.com/u/225433?v=3&s=400",
+        "twitter": "emckean",
+        "github": "emckean",
+        "description": "In this talk you'll learn:\n\nhow to connect LoopBack to your datasource\nhow to create a model\nhow to add a custom method\n... and more!",
+        "video": "",
+        "videoimg": ""
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Codesmith",
+        "logo": "http://js.la/images/hosts/host-codesmith.png",
+        "url": "https://codesmith.io"
+      },
+      {
+        "name": "Twilio",
+        "logo": "https://www.twilio.com/marketing/bundles/company-brand/img/logos/red/twilio-logo-red.png",
+        "url": "http://twilio.com"
+      }
+    ]
+  }
+}
