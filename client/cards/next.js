@@ -1,6 +1,5 @@
 var h = require('hyperscript')
 var nextEvent = require('../events.json').next
-console.log('nextEvent', nextEvent)
 
 module.exports = h('.next', {style: {width: '100%'}},
   h('h1', {style: {'font-size': '400%'}}, 'Next js.la'),
