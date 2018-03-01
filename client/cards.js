@@ -13,6 +13,7 @@ var standardCards = [
   require('./cards/slack'),
   require('./cards/volunteer'),
   require('./cards/next'),
+  require('./cards/codesmith'),
   require('./cards/fullstack-react')
 ]
 
