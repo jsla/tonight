@@ -9,7 +9,6 @@ var standardCards = [
   require('./cards/lunch'),
   require('./cards/speakers-wanted'),
   require('./cards/youtube'),
-  require('./cards/ol'),
   require('./cards/sponsors-wanted'),
   require('./cards/slack'),
   require('./cards/volunteer'),
