@@ -4,7 +4,7 @@ module.exports = h('.drinks',
   h('h1', 'Drinks.js @ 9:15pm'),
 
   h('img', {src: '/img/drinks/logo.png'}),
-  h('h1', 'Alley Lounge'),
-  h('h2', '12223 W Washington Blvd, Culver City'),
-  h('h2', 'Just east of Centinela')
+  h('h1', 'Barkowski'),
+  h('h2', '2819 Pico Blvd, Santa Monica, 90405'),
+  h('h2', 'On Pico between 28th and 29th')
 )
