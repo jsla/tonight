@@ -9,8 +9,8 @@ fetchAdmin(function (err, everything) {
     return process.exit(1)
   }
 
-  var current = extractShow(everything)
-  var next = extractShow(everything, Date.now() + (7 * 24 * 3600 * 1000))
+  var current = extractShow(everything, Date.now() - (7 * 24 * 3600 * 1000))
+  var next = extractShow(everything, Date.now())
 
   var fn = path.join(__dirname, '../client/events.json')
   fs.writeFile(fn, JSON.stringify({current, next}, null, 2), function () {})
