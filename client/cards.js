@@ -3,7 +3,7 @@ var speakerCard = require('./cards/speaker')
 var sponsorCard = require('./cards/sponsor')
 
 var standardCards = [
-  require('./cards/early'),
+//  require('./cards/early'),
   require('./cards/coc'),
   require('./cards/drinks'),
   require('./cards/nodeschool'),
