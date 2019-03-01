@@ -1,50 +1,5 @@
 {
   "current": {
-    "datetime": "Thursday January 31st, 2019 7pm",
-    "date": "1/31/2019 19:00:00",
-    "unixTime": 1548921600000,
-    "host": {
-      "address": "320 Hampton Drive Venice CA 90291",
-      "name": "Google",
-      "url": "https://www.google.com/about/locations/los-angeles/",
-      "misc": ""
-    },
-    "speakers": [
-      {
-        "title": "Becoming a programmer without a CS degree & bootcamp free!",
-        "name": "Ben Junya",
-        "image": "https://i.imgur.com/JoWogJz.jpg",
-        "twitter": "MrBenJ5",
-        "github": "MrBenJ",
-        "description": "Non-traditional ways of getting into the field of programming and software engineering.",
-        "video": "",
-        "videoimg": ""
-      },
-      {
-        "title": "From WordPress to React while keeping everyone happy.",
-        "name": "Mike Kerr",
-        "image": "https://i.imgur.com/76jUcWc.jpg",
-        "twitter": "codecareercoach",
-        "github": "reactiongears",
-        "description": "Getting my company, FabFitFun, off a monolithic WordPress app and on to React, a change I wanted to make in the company and yelled loud enough to get the attention and approval of everyone. Discussing what it took from gaining approval from the tech team and executive stakeholders as well as how I assembled the tool to keep both Content Editors, UX Designers and Engineers happy. This initiative led me to building a custom React CMS + WYSIWIG Editor from scratch!",
-        "video": "",
-        "videoimg": ""
-      }
-    ],
-    "sponsors": [
-      {
-        "name": "Google",
-        "logo": "https://lh3.googleusercontent.com/-ZxK7RcVQdOE/Vd5bJfv4tYI/AAAAAAAAQ70/p8tAh6KU-OQfaAEiXteXDCpzLXe1jag6gCHM/d/logo_420_color_2x.png",
-        "url": "https://www.google.com/about/locations/los-angeles/"
-      },
-      {
-        "name": "PlayVS",
-        "logo": "https://streamlabs.com/expandingthestream2018/imgs/playvs-logo.png",
-        "url": "https://www.playvs.com/"
-      }
-    ]
-  },
-  "next": {
     "datetime": "Thursday February 28th, 2019 7pm",
     "date": "2/28/2019 19:00:00",
     "unixTime": 1551340800000,
@@ -64,6 +19,16 @@
         "description": "A lot has happened in the five years since Val Karpov coined the MEAN stack to describe \"Full Stack\" Javascript stacks.\nReact rose to dominance, AWS Lambda started the Serverless movement, and Static Site Generators came back in a big way. \n\n\nWhat is driving this new stack of Javascript, APIs, and Markup? This is the story of how a JAM Stack cynic finally turned into a believer.",
         "video": "",
         "videoimg": ""
+      },
+      {
+        "title": "Having fun with HTTP/2 in Node.js",
+        "name": "James M Snell",
+        "image": "https://i.imgur.com/V4FNmEA.jpg",
+        "twitter": "jasnell",
+        "github": "jasnell",
+        "description": "Fun stuff you can do with HTTP/2! Including some best practices and future plans of HTTP2 in Node.",
+        "video": "",
+        "videoimg": ""
       }
     ],
     "sponsors": [
@@ -71,7 +36,46 @@
         "name": "Edmunds.com",
         "logo": "https://5c01b9f7f6d5ea39c04ea7ba--jsla.netlify.com/images/hosts/host-edmunds.png",
         "url": "https://www.edmunds.com/careers/"
+      },
+      {
+        "name": "Cameo",
+        "logo": "https://i.imgur.com/QzMsPnb.png",
+        "url": "https://cameo.com/jobs"
       }
     ]
+  },
+  "next": {
+    "datetime": "Thursday March 28th, 2019 7pm",
+    "date": "3/28/2019 19:00:00",
+    "unixTime": 1553756400000,
+    "host": {
+      "address": "",
+      "name": "TBA",
+      "url": "https://js.la",
+      "misc": ""
+    },
+    "speakers": [
+      {
+        "title": "Get Over Yourself",
+        "name": "Adam Smith",
+        "image": "https://i.imgur.com/6cyZ7MX.jpg",
+        "twitter": "enminc",
+        "github": "enminc",
+        "description": "A humbling look into Imposter Syndrome and realizing you’re not the only one. Getting comfortable with being uncomfortable is something we all need to get comfortable with.",
+        "video": "",
+        "videoimg": ""
+      },
+      {
+        "title": "Narrative Visualizations",
+        "name": "Zev Youra",
+        "image": "https://i.imgur.com/vpmikpa.jpg",
+        "twitter": "zzzev",
+        "github": "zzzev",
+        "description": "I recently left Google after ~4.5 years to work on some new projects. Since then, I've been spending most of my time working on multi-layered data visualizations, and would love to talk through the creation of a few examples. I could also discuss the workflow I've developed to present them both as interactive visualizations on the web and as pre-rendered videos for consumption on twitter, facebook, etc.\n\n...on the other hand, I may have some new ideas by next year, so let's circle back a bit beforehand to make sure this is still the best topic.",
+        "video": "",
+        "videoimg": ""
+      }
+    ],
+    "sponsors": []
   }
 }

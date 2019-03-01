@@ -8,8 +8,8 @@ module.exports = h('.next', {style: {width: '100%'}},
 
   h('div',
     nextEvent.speakers.map(function (speaker) {
-      return h('div', {style: {width: '100%', float: 'left', margin: '5% 0'}},
-        h('img', {src: speaker.image, height: 200}),
+      return h('div', {style: {width: '50%', float: 'left', margin: '5% 0'}},
+        h('img', {src: speaker.image, height: 300}),
         h('h2', speaker.name),
         h('h3', speaker.title)
       )
