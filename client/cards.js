@@ -5,7 +5,7 @@ var sponsorCard = require('./cards/sponsor')
 var standardCards = [
   require('./cards/early'),
   require('./cards/coc'),
-  require('./cards/drinks'),
+  require('./cards/drinks')(events.current.drinks[0]),
   require('./cards/nodeschool'),
   require('./cards/lunch'),
   require('./cards/speakers-wanted'),

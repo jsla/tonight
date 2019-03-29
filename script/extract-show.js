@@ -5,6 +5,7 @@ module.exports = function extractNextShow (all, timeStart) {
   var hosts = toArray(all.hosts)
   var sponsors = toArray(all.sponsors)
   var speakers = toArray(all.speakers)
+  var drinks = toArray(all.drinks)
 
   var date = findShowDates(1, timeStart)[0]
 
@@ -21,15 +22,20 @@ module.exports = function extractNextShow (all, timeStart) {
     return (sponsor.bookedShows || '').match(month)
   })
 
+  var drinksMatch = drinks.filter(function (drink) {
+    return (drink.bookedShows || '').match(month)
+  })
+
   return formatShow({
     date: date,
+    drinks: drinksMatch,
     host: hostMatch[0] || createTBAHost(),
     speakers: speakerMatch.length ? speakerMatch : [createTBASpeaker()],
     sponsors: sponsorMatch
   })
 }
 
-function formatShow ({date, host, speakers, sponsors}) {
+function formatShow ({date, host, speakers, sponsors, drinks}) {
   var showSpeakers = []
   if (speakers[0]) showSpeakers.push(formatSpeaker(speakers[0]))
   if (speakers[1]) showSpeakers.push(formatSpeaker(speakers[1]))
@@ -46,6 +52,7 @@ function formatShow ({date, host, speakers, sponsors}) {
     date: formattedDate.date,
     unixTime: formattedDate.unixTime,
     host: formatHost(host),
+    drinks: drinks,
     speakers: showSpeakers,
     sponsors: showSponsors
   }

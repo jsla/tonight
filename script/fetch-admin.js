@@ -13,7 +13,8 @@ var auth = Authentic({ server: 'https://authentic.apps.js.la' })
 var urls = {
   speakers: 'https://admin.apps.js.la/api/list/speaker',
   sponsors: 'https://admin.apps.js.la/api/list/sponsor',
-  hosts: 'https://admin.apps.js.la/api/list/host'
+  hosts: 'https://admin.apps.js.la/api/list/host',
+  drinks: 'https://admin.apps.js.la/api/list/drinksjs'
 }
 
 module.exports = function fetchAllData (cb) {
