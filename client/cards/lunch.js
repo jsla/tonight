@@ -6,5 +6,5 @@ module.exports = h('.youtube',
     style: {width: '80%'}
   }),
 
-  h('h1', 'lunch.js.la')
+  h('h1', 'js.la/lunch')
 )
