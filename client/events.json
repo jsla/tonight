@@ -1,59 +1,22 @@
 {
   "current": {
-    "datetime": "Thursday February 28th, 2019 7pm",
-    "date": "2/28/2019 19:00:00",
-    "unixTime": 1551340800000,
-    "host": {
-      "address": "2401 Colorado Ave, Santa Monica, CA 90404",
-      "name": "Edmunds.com",
-      "url": "https://www.edmunds.com/careers/",
-      "misc": ""
-    },
-    "speakers": [
-      {
-        "title": "JAM Stack: The Total Victory of JavaScript",
-        "name": "Shawn swyx Wang",
-        "image": "https://avatars3.githubusercontent.com/u/6764957?s=460&v=4",
-        "twitter": "swyx",
-        "github": "sw-yx",
-        "description": "A lot has happened in the five years since Val Karpov coined the MEAN stack to describe \"Full Stack\" Javascript stacks.\nReact rose to dominance, AWS Lambda started the Serverless movement, and Static Site Generators came back in a big way. \n\n\nWhat is driving this new stack of Javascript, APIs, and Markup? This is the story of how a JAM Stack cynic finally turned into a believer.",
-        "video": "",
-        "videoimg": ""
-      },
-      {
-        "title": "Having fun with HTTP/2 in Node.js",
-        "name": "James M Snell",
-        "image": "https://i.imgur.com/V4FNmEA.jpg",
-        "twitter": "jasnell",
-        "github": "jasnell",
-        "description": "Fun stuff you can do with HTTP/2! Including some best practices and future plans of HTTP2 in Node.",
-        "video": "",
-        "videoimg": ""
-      }
-    ],
-    "sponsors": [
-      {
-        "name": "Edmunds.com",
-        "logo": "https://5c01b9f7f6d5ea39c04ea7ba--jsla.netlify.com/images/hosts/host-edmunds.png",
-        "url": "https://www.edmunds.com/careers/"
-      },
-      {
-        "name": "Cameo",
-        "logo": "https://i.imgur.com/QzMsPnb.png",
-        "url": "https://cameo.com/jobs"
-      }
-    ]
-  },
-  "next": {
     "datetime": "Thursday March 28th, 2019 7pm",
     "date": "3/28/2019 19:00:00",
     "unixTime": 1553756400000,
     "host": {
-      "address": "",
-      "name": "TBA",
-      "url": "https://js.la",
+      "address": "214 Wilshire Blvd, Santa Monica, CA 90401",
+      "name": "PatientPop",
+      "url": "https://www.patientpop.com/",
       "misc": ""
     },
+    "drinks": [
+      {
+        "address": "116 Santa Monica Blvd Santa Monica, CA 90401",
+        "bookedShows": "2019-03-28",
+        "id": "7qvBypFZYT2tuWQ7n44srrVAsVas",
+        "name": "Ye Olde King’s Head"
+      }
+    ],
     "speakers": [
       {
         "title": "Get Over Yourself",
@@ -76,6 +39,63 @@
         "videoimg": ""
       }
     ],
-    "sponsors": []
+    "sponsors": [
+      {
+        "name": "PatientPop",
+        "logo": "https://i.imgur.com/BqAprBu.png",
+        "url": "https://www.patientpop.com/"
+      },
+      {
+        "name": "Replicated ",
+        "logo": "https://media.publit.io/file/45zDxnASq71WiIHcMEsjHrDm.png",
+        "url": "https://www.replicated.com/careers/"
+      }
+    ]
+  },
+  "next": {
+    "datetime": "Thursday April 25th, 2019 7pm",
+    "date": "4/25/2019 19:00:00",
+    "unixTime": 1556175600000,
+    "host": {
+      "address": "1575 N. Gower St., Suite 170",
+      "name": "Fender ",
+      "url": "https://www.fender.com/pages/careers",
+      "misc": ""
+    },
+    "drinks": [],
+    "speakers": [
+      {
+        "title": "Secret Presentation",
+        "name": "Special Mystery Guest",
+        "image": "https://media.publit.io/file/E1HQ9knaNfnkd6HtCdgaQY6R.jpg",
+        "twitter": "",
+        "github": "",
+        "description": "?????",
+        "video": "",
+        "videoimg": ""
+      },
+      {
+        "title": "Gaming in the Browser (Using Only The Platform)",
+        "name": "Alex Yankouski",
+        "image": "https://media.publit.io/file/roZt0SSD-aRht0mua3pkJYHD.jpg",
+        "twitter": "yankouskia",
+        "github": "yankouskia",
+        "description": "Sharing his experience of creating his first small game using only WebGL and getting rid of pixi.js or three.js to see how all that fancy gaming trickery works under the hood in the browser. ",
+        "video": "",
+        "videoimg": ""
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Fender ",
+        "logo": "https://i.imgur.com/3tobmg4.jpg",
+        "url": "https://www.fender.com/pages/careers"
+      },
+      {
+        "name": "Cameo",
+        "logo": "https://i.imgur.com/QzMsPnb.png",
+        "url": "https://cameo.com/jobs"
+      }
+    ]
   }
 }
