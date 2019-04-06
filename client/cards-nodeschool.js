@@ -1,7 +1,7 @@
 var h = require('hyperscript')
 
 module.exports = [
-  card(['Wifi: CODESMITH', 'Pass: ilovetesting']),
+  card(['Wifi: Replicated Guest', 'Pass: EnterpriseReady']),
   card(['For Workshoppers go to:', 'nodeschool.io/#workshopper-list']),
   card([
     'NodeSchool is brought to you by',
@@ -9,7 +9,6 @@ module.exports = [
     'js.la is every month on the last Thursday',
     'go to js.la/subscribe'
   ]),
-  card(['🍕 in the Kitchen']),
   card(['lunch.js on Tuesday in a neighborhood near you:', 'go to lunch.js.la']),
   card(['Join our #slack channel:', 'js.la/slack', '#nodeschool']),
   card(['Stuck?', 'Ask a neighbor or mentor!']),
