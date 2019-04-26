@@ -1,58 +1,5 @@
 {
   "current": {
-    "datetime": "Thursday March 28th, 2019 7pm",
-    "date": "3/28/2019 19:00:00",
-    "unixTime": 1553756400000,
-    "host": {
-      "address": "214 Wilshire Blvd, Santa Monica, CA 90401",
-      "name": "PatientPop",
-      "url": "https://www.patientpop.com/",
-      "misc": ""
-    },
-    "drinks": [
-      {
-        "address": "116 Santa Monica Blvd Santa Monica, CA 90401",
-        "bookedShows": "2019-03-28",
-        "id": "7qvBypFZYT2tuWQ7n44srrVAsVas",
-        "name": "Ye Olde King’s Head"
-      }
-    ],
-    "speakers": [
-      {
-        "title": "Get Over Yourself",
-        "name": "Adam Smith",
-        "image": "https://i.imgur.com/6cyZ7MX.jpg",
-        "twitter": "enminc",
-        "github": "enminc",
-        "description": "A humbling look into Imposter Syndrome and realizing you’re not the only one. Getting comfortable with being uncomfortable is something we all need to get comfortable with.",
-        "video": "",
-        "videoimg": ""
-      },
-      {
-        "title": "Narrative Visualizations",
-        "name": "Zev Youra",
-        "image": "https://i.imgur.com/vpmikpa.jpg",
-        "twitter": "zzzev",
-        "github": "zzzev",
-        "description": "I recently left Google after ~4.5 years to work on some new projects. Since then, I've been spending most of my time working on multi-layered data visualizations, and would love to talk through the creation of a few examples. I could also discuss the workflow I've developed to present them both as interactive visualizations on the web and as pre-rendered videos for consumption on twitter, facebook, etc.\n\n...on the other hand, I may have some new ideas by next year, so let's circle back a bit beforehand to make sure this is still the best topic.",
-        "video": "",
-        "videoimg": ""
-      }
-    ],
-    "sponsors": [
-      {
-        "name": "PatientPop",
-        "logo": "https://i.imgur.com/BqAprBu.png",
-        "url": "https://www.patientpop.com/"
-      },
-      {
-        "name": "Replicated ",
-        "logo": "https://media.publit.io/file/45zDxnASq71WiIHcMEsjHrDm.png",
-        "url": "https://www.replicated.com/careers/"
-      }
-    ]
-  },
-  "next": {
     "datetime": "Thursday April 25th, 2019 7pm",
     "date": "4/25/2019 19:00:00",
     "unixTime": 1556175600000,
@@ -62,15 +9,22 @@
       "url": "https://www.fender.com/pages/careers",
       "misc": ""
     },
-    "drinks": [],
+    "drinks": [
+      {
+        "address": "6124 Hollywood Blvd, Los Angeles, CA 90028",
+        "bookedShows": "2019-04-25",
+        "id": "bjGCmTanRlJrCzMzXXXDkQVYw05f",
+        "name": "Blue Palms Brewhouse"
+      }
+    ],
     "speakers": [
       {
-        "title": "Secret Presentation",
-        "name": "Special Mystery Guest",
-        "image": "https://media.publit.io/file/E1HQ9knaNfnkd6HtCdgaQY6R.jpg",
+        "title": "A secure runtime for JavaScript and TypeScript built with V8, Rust, and Tokio",
+        "name": "Ryan Dahl",
+        "image": "https://media.publit.io/file/nDBIuxKtpIRlTt4CBb68cXkq.jpg",
         "twitter": "",
-        "github": "",
-        "description": "?????",
+        "github": "ry",
+        "description": "Deno is a new command-line program for executing JavaScript and\nTypeScript built using V8, Rust, and Tokio. The goal is to provide\nusers with a convenient tool for dynamic programming using familiar\nbrowser-like APIs. Trading backward compatibility for modernity, Deno\nis built around the new \"ES module\" standard. Third party imports are\ndone via URLs, which Deno can fetch out-of-the-box, thus providing a\nstandards-based distributed module system. Like in the browser, by\ndefault code is securely sandboxed - so users can run unaudited\nscripts with some confidence.",
         "video": "",
         "videoimg": ""
       },
@@ -95,6 +49,59 @@
         "name": "Cameo",
         "logo": "https://i.imgur.com/QzMsPnb.png",
         "url": "https://cameo.com/jobs"
+      }
+    ]
+  },
+  "next": {
+    "datetime": "Thursday May 30th, 2019 7pm",
+    "date": "5/30/2019 19:00:00",
+    "unixTime": 1559199600000,
+    "host": {
+      "address": "1728 Olympic Blvd, Santa Monica 90404",
+      "name": "Earny, Inc.",
+      "url": "https://www.earny.co/jobs",
+      "misc": ""
+    },
+    "drinks": [
+      {
+        "address": "116 Santa Monica Blvd Santa Monica, CA 90401",
+        "bookedShows": "2019-05-30",
+        "id": "aTZ2XFzq0L2FHVd6icZIC7gAbTTa",
+        "name": "Ye Olde King's Head"
+      }
+    ],
+    "speakers": [
+      {
+        "title": "A Functional Journey: 2 Years of PureScript in Production",
+        "name": "Forest Toney",
+        "image": "https://avatars3.githubusercontent.com/u/6046447?s=460&v=4",
+        "twitter": "foresttoney",
+        "github": "foresttoney",
+        "description": "2 years ago we were looking to migrate away from a legacy Angular application. We evaluated React, Elm, and Reason but ultimately decided on PureScript. I am going to talk about why we picked PureScript and how things have turned out thus far.",
+        "video": "",
+        "videoimg": ""
+      },
+      {
+        "title": "Functional Programming 101",
+        "name": "Forrest Akin",
+        "image": "https://avatars1.githubusercontent.com/u/4237388?s=400&v=4",
+        "twitter": "drum_4est_drum",
+        "github": "forrest-akin",
+        "description": "I recently gave a talk to my team at NuORDER on functional programming 101. I'd love to give a similar talk at js.la featuring some demos with ramda and maybe jest tests. Topics covered include pure functions, immutability, function composition, and declarative programming.",
+        "video": "",
+        "videoimg": ""
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Earny, Inc.",
+        "logo": "http://imagizer.imageshack.us/a/img924/7328/Nni1O3.png",
+        "url": "https://www.earny.co/jobs"
+      },
+      {
+        "name": "Dun & Bradstreet",
+        "logo": "https://media.publit.io/file/JK7l78XFssUKrKorrR48w2XN.jpg",
+        "url": "https://www.dnb.com/about-us/careers-and-people.html"
       }
     ]
   }
