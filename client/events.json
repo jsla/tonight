@@ -1,58 +1,5 @@
 {
   "current": {
-    "datetime": "Thursday April 25th, 2019 7pm",
-    "date": "4/25/2019 19:00:00",
-    "unixTime": 1556175600000,
-    "host": {
-      "address": "1575 N. Gower St., Suite 170",
-      "name": "Fender ",
-      "url": "https://www.fender.com/pages/careers",
-      "misc": ""
-    },
-    "drinks": [
-      {
-        "address": "6124 Hollywood Blvd, Los Angeles, CA 90028",
-        "bookedShows": "2019-04-25",
-        "id": "bjGCmTanRlJrCzMzXXXDkQVYw05f",
-        "name": "Blue Palms Brewhouse"
-      }
-    ],
-    "speakers": [
-      {
-        "title": "A secure runtime for JavaScript and TypeScript built with V8, Rust, and Tokio",
-        "name": "Ryan Dahl",
-        "image": "https://media.publit.io/file/nDBIuxKtpIRlTt4CBb68cXkq.jpg",
-        "twitter": "",
-        "github": "ry",
-        "description": "Deno is a new command-line program for executing JavaScript and\nTypeScript built using V8, Rust, and Tokio. The goal is to provide\nusers with a convenient tool for dynamic programming using familiar\nbrowser-like APIs. Trading backward compatibility for modernity, Deno\nis built around the new \"ES module\" standard. Third party imports are\ndone via URLs, which Deno can fetch out-of-the-box, thus providing a\nstandards-based distributed module system. Like in the browser, by\ndefault code is securely sandboxed - so users can run unaudited\nscripts with some confidence.",
-        "video": "",
-        "videoimg": ""
-      },
-      {
-        "title": "Gaming in the Browser (Using Only The Platform)",
-        "name": "Alex Yankouski",
-        "image": "https://media.publit.io/file/roZt0SSD-aRht0mua3pkJYHD.jpg",
-        "twitter": "yankouskia",
-        "github": "yankouskia",
-        "description": "Sharing his experience of creating his first small game using only WebGL and getting rid of pixi.js or three.js to see how all that fancy gaming trickery works under the hood in the browser. ",
-        "video": "",
-        "videoimg": ""
-      }
-    ],
-    "sponsors": [
-      {
-        "name": "Fender ",
-        "logo": "https://i.imgur.com/3tobmg4.jpg",
-        "url": "https://www.fender.com/pages/careers"
-      },
-      {
-        "name": "Cameo",
-        "logo": "https://i.imgur.com/QzMsPnb.png",
-        "url": "https://cameo.com/jobs"
-      }
-    ]
-  },
-  "next": {
     "datetime": "Thursday May 30th, 2019 7pm",
     "date": "5/30/2019 19:00:00",
     "unixTime": 1559199600000,
@@ -64,10 +11,10 @@
     },
     "drinks": [
       {
-        "address": "116 Santa Monica Blvd Santa Monica, CA 90401",
+        "address": "2310 Pico Blvd Santa Monica, CA 90405",
         "bookedShows": "2019-05-30",
         "id": "aTZ2XFzq0L2FHVd6icZIC7gAbTTa",
-        "name": "Ye Olde King's Head"
+        "name": "The Daily Pint"
       }
     ],
     "speakers": [
@@ -82,12 +29,12 @@
         "videoimg": ""
       },
       {
-        "title": "Functional Programming 101",
+        "title": "Functional Programming: A Guided Tour",
         "name": "Forrest Akin",
-        "image": "https://avatars1.githubusercontent.com/u/4237388?s=400&v=4",
+        "image": "https://media.publit.io/file/4qqmWAH8HO1wNqJFUQvo5zdS.png",
         "twitter": "drum_4est_drum",
         "github": "forrest-akin",
-        "description": "I recently gave a talk to my team at NuORDER on functional programming 101. I'd love to give a similar talk at js.la featuring some demos with ramda and maybe jest tests. Topics covered include pure functions, immutability, function composition, and declarative programming.",
+        "description": "Functional Programming is a programming paradigm that can help you reduce code complexity while improving application reliability; but...how? In this talk, I'll take you on a guided tour down the path I took from learning JavaScript to incorporating functional techniques into my daily practice. Along the way, you'll learn what Functional Programming is, why it's useful, and how you can start using it today!",
         "video": "",
         "videoimg": ""
       }
@@ -95,13 +42,59 @@
     "sponsors": [
       {
         "name": "Earny, Inc.",
-        "logo": "http://imagizer.imageshack.us/a/img924/7328/Nni1O3.png",
+        "logo": "https://imagizer.imageshack.us/a/img924/7328/Nni1O3.png",
         "url": "https://www.earny.co/jobs"
       },
       {
         "name": "Dun & Bradstreet",
         "logo": "https://media.publit.io/file/JK7l78XFssUKrKorrR48w2XN.jpg",
         "url": "https://www.dnb.com/about-us/careers-and-people.html"
+      }
+    ]
+  },
+  "next": {
+    "datetime": "Thursday June 27th, 2019 7pm",
+    "date": "6/27/2019 19:00:00",
+    "unixTime": 1561618800000,
+    "host": {
+      "address": "990 W 8th Street Suite 600 Los Angeles CA 90017",
+      "name": "Honey",
+      "url": "https://www.joinhoney.com/",
+      "misc": ""
+    },
+    "drinks": [],
+    "speakers": [
+      {
+        "title": "Put Some Respek on My Name",
+        "name": "Gerard O'Neill",
+        "image": "https://avatars2.githubusercontent.com/u/748180",
+        "twitter": "grardb",
+        "github": "grardb",
+        "description": "This is a talk about all the problems that occur when programmers try to validate and sanitize names. My last name has an apostrophe, and it's a horrible experience. I know someone whose first name is one letter. I have friends with accented characters in their names.\n\nProgrammers do a horrible job of respecting people's monikers, so I am on a mission to make people understand the flaws in their ways.\n\nI recently gave a shorter version of this talk: https://www.youtube.com/watch?v=YFEO0qKYaiU",
+        "video": "",
+        "videoimg": ""
+      },
+      {
+        "title": "11 Years of Having No Idea of What I’m Doing ",
+        "name": "Angus Perkerson",
+        "image": "https://media.publit.io/file/HJNC7p_qPT7o-FI5tOoBjgd4.png",
+        "twitter": "angusp",
+        "github": "anguspiv",
+        "description": "Imposter Syndrome is okay. It’s okay to feel like you don’t know what you’re doing at your job, that’s your job as a Software Engineer.\n\nIn all 11 years of my career, every job I’ve had to learn there tech stack on the job, whether it was backbone, angularjs, or react. Instead what helped me in my career was focusing on the basics of programming and algorithms, and understanding the JavaScript Language itself.\n\nI want to share my story of how for every job I’ve had there we’re several moments where I had no idea what I was doing, but by focusing what I did know, and learning the foundations of what I needed to know. I’ve been able to build a pretty successful career.\n\nTLDR;\nFeeling like you don’t know what your doing is okay. Learn JavaScript not React, and you’ll be fine.",
+        "video": "",
+        "videoimg": ""
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Honey",
+        "logo": "https://cdn.joinhoney.com/images/website-press-page/honey-images/honey-logo.svg",
+        "url": "https://www.joinhoney.com/"
+      },
+      {
+        "name": "Polycade Inc.",
+        "logo": "https://media.publit.io/file/hUezQetp-kjJlJ0t4JN8wmeB.png",
+        "url": "https://angel.co/company/polycade/jobs/418438-full-stack-developer-nodejs-windows"
       }
     ]
   }
