@@ -1,58 +1,5 @@
 {
   "current": {
-    "datetime": "Thursday May 30th, 2019 7pm",
-    "date": "5/30/2019 19:00:00",
-    "unixTime": 1559199600000,
-    "host": {
-      "address": "1728 Olympic Blvd, Santa Monica 90404",
-      "name": "Earny, Inc.",
-      "url": "https://www.earny.co/jobs",
-      "misc": ""
-    },
-    "drinks": [
-      {
-        "address": "2310 Pico Blvd Santa Monica, CA 90405",
-        "bookedShows": "2019-05-30",
-        "id": "aTZ2XFzq0L2FHVd6icZIC7gAbTTa",
-        "name": "The Daily Pint"
-      }
-    ],
-    "speakers": [
-      {
-        "title": "A Functional Journey: 2 Years of PureScript in Production",
-        "name": "Forest Toney",
-        "image": "https://avatars3.githubusercontent.com/u/6046447?s=460&v=4",
-        "twitter": "foresttoney",
-        "github": "foresttoney",
-        "description": "2 years ago we were looking to migrate away from a legacy Angular application. We evaluated React, Elm, and Reason but ultimately decided on PureScript. I am going to talk about why we picked PureScript and how things have turned out thus far.",
-        "video": "",
-        "videoimg": ""
-      },
-      {
-        "title": "Functional Programming: A Guided Tour",
-        "name": "Forrest Akin",
-        "image": "https://media.publit.io/file/4qqmWAH8HO1wNqJFUQvo5zdS.png",
-        "twitter": "drum_4est_drum",
-        "github": "forrest-akin",
-        "description": "Functional Programming is a programming paradigm that can help you reduce code complexity while improving application reliability; but...how? In this talk, I'll take you on a guided tour down the path I took from learning JavaScript to incorporating functional techniques into my daily practice. Along the way, you'll learn what Functional Programming is, why it's useful, and how you can start using it today!",
-        "video": "",
-        "videoimg": ""
-      }
-    ],
-    "sponsors": [
-      {
-        "name": "Earny, Inc.",
-        "logo": "https://imagizer.imageshack.us/a/img924/7328/Nni1O3.png",
-        "url": "https://www.earny.co/jobs"
-      },
-      {
-        "name": "Dun & Bradstreet",
-        "logo": "https://media.publit.io/file/JK7l78XFssUKrKorrR48w2XN.jpg",
-        "url": "https://www.dnb.com/about-us/careers-and-people.html"
-      }
-    ]
-  },
-  "next": {
     "datetime": "Thursday June 27th, 2019 7pm",
     "date": "6/27/2019 19:00:00",
     "unixTime": 1561618800000,
@@ -62,7 +9,14 @@
       "url": "https://www.joinhoney.com/",
       "misc": ""
     },
-    "drinks": [],
+    "drinks": [
+      {
+        "address": "417 W 8th St Los Angeles, CA 90014",
+        "bookedShows": "2019-06-27",
+        "id": "UgQjszl4gN27YkknJIPu4IVKZndH",
+        "name": "Golden Gopher"
+      }
+    ],
     "speakers": [
       {
         "title": "Put Some Respek on My Name",
@@ -88,13 +42,59 @@
     "sponsors": [
       {
         "name": "Honey",
-        "logo": "https://cdn.joinhoney.com/images/website-press-page/honey-images/honey-logo.svg",
+        "logo": "https://cl.ly/3980178707e6/Image%2525202019-06-04%252520at%2525207.00.29%252520PM.png",
         "url": "https://www.joinhoney.com/"
       },
       {
         "name": "Polycade Inc.",
         "logo": "https://media.publit.io/file/hUezQetp-kjJlJ0t4JN8wmeB.png",
         "url": "https://angel.co/company/polycade/jobs/418438-full-stack-developer-nodejs-windows"
+      }
+    ]
+  },
+  "next": {
+    "datetime": "Thursday July 25th, 2019 7pm",
+    "date": "7/25/2019 19:00:00",
+    "unixTime": 1564038000000,
+    "host": {
+      "address": "320 Hampton Drive Venice CA 90291",
+      "name": "Google",
+      "url": "https://www.google.com/about/locations/los-angeles/",
+      "misc": ""
+    },
+    "drinks": [],
+    "speakers": [
+      {
+        "title": "Full Stack Development in the Era of Serverless Computing",
+        "name": "Nader Dabit",
+        "image": "https://i.imgur.com/3NusHsX.jpg",
+        "twitter": "dabit3",
+        "github": "dabit3",
+        "description": "When people think about cloud computing, they typically think about servers & back end development. This is starting to change.\n\nWith the emergence of more & more powerful & sophisticated managed services like AWS AppSync, Cloudinary, Algolia, Auth0 & Firebase, it's completely possible for front-end engineers to build full-stack web & mobile applications with almost no back-end code, relying on these services to do the heavy lifting for features like data layers, search, authentication, authorization, & more.\n\nIn this talk, I'll talk about this philosophy in depth, discuss the options available from different service providers, & then show how (live-code) to build a full-stack web application in just a few minutes by using React & AWS Amplify to quickly build a real-world application complete with a GraphQL API, authentication & authorization, & hosting.\n",
+        "video": "",
+        "videoimg": ""
+      },
+      {
+        "title": "The Lost Art of MIDI – Bringing < bgsound > Back to the Web",
+        "name": "Feross Aboukhadijeh",
+        "image": "https://feross.org/images/feross-insta.jpg",
+        "twitter": "feross",
+        "github": "feross",
+        "description": "In the days of Geocities and Angelfire, a quirky HTML tag called < bgsound > enabled sound files to play in the background of webpages. Usually, these files were in the MIDI format. What a glorious era that was! Sadly, < bgsound > has been removed from browsers and MIDI is obscure and hard to play back. In this talk, we'll bring MIDI and < bgsound > back from the dead using WebAssembly, Emscripten, Web Audio, and Web Components. When we're finished, you'll be able to give your webpages the 90's treatment in a modern, standards-compliant way!",
+        "video": "",
+        "videoimg": ""
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Google",
+        "logo": "https://lh3.googleusercontent.com/-ZxK7RcVQdOE/Vd5bJfv4tYI/AAAAAAAAQ70/p8tAh6KU-OQfaAEiXteXDCpzLXe1jag6gCHM/d/logo_420_color_2x.png",
+        "url": "https://www.google.com/about/locations/los-angeles/"
+      },
+      {
+        "name": "Unanimous AI",
+        "logo": "https://media.publit.io/file/30RTHTIeQFvffBSQ4b4pd1SU.png",
+        "url": "https://unanimous.ai/"
       }
     ]
   }
