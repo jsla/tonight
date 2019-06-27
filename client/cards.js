@@ -14,7 +14,6 @@ var standardCards = [
   require('./cards/slack'),
   require('./cards/volunteer'),
   require('./cards/next'),
-  require('./cards/dnb'),
   require('./cards/fullstack-react')
 ]
 
