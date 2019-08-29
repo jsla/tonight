@@ -1,58 +1,5 @@
 {
   "current": {
-    "datetime": "Thursday July 25th, 2019 7pm",
-    "date": "7/25/2019 19:00:00",
-    "unixTime": 1564038000000,
-    "host": {
-      "address": "320 Hampton Drive Venice CA 90291",
-      "name": "Google",
-      "url": "https://www.google.com/about/locations/los-angeles/",
-      "misc": ""
-    },
-    "drinks": [
-      {
-        "address": "625 Lincoln Blvd, Los Angeles, CA 90291",
-        "bookedShows": "2019-07-25",
-        "id": "Velc5IyfoPAoB1B4jNx4XIodNEhx",
-        "name": "Wurstkuche"
-      }
-    ],
-    "speakers": [
-      {
-        "title": "Become a 10x Engineer",
-        "name": "Jacob Lowe",
-        "image": "https://media.publit.io/file/dVCBv3M8To22w3ADuja6pJv8.jpg",
-        "twitter": "jcblw",
-        "github": "jcblw",
-        "description": "Do not burn yourself out. Sitting at my desk, I had an overwhelming feeling doing too much but also getting nothing done. I would look back at my time and think I did a lot of things, but I just do not recollect any of them. It's like my body was on autopilot and my mind was taking a nap.",
-        "video": "",
-        "videoimg": ""
-      },
-      {
-        "title": "Curious Cases of GraphQL",
-        "name": "Nader Dabit",
-        "image": "https://i.imgur.com/3NusHsX.jpg",
-        "twitter": "dabit3",
-        "github": "dabit3",
-        "description": "As GraphQL moves into the mainstream, the tooling, ecosystem, and services supporting it have grown and have made it possible to do much more with GraphQL than using it as just a data layer. In this talk, I'll show how developers are using GraphQL as an API gateway to accomplish things that you may have never thought possible.",
-        "video": "",
-        "videoimg": ""
-      }
-    ],
-    "sponsors": [
-      {
-        "name": "Google",
-        "logo": "https://lh3.googleusercontent.com/-ZxK7RcVQdOE/Vd5bJfv4tYI/AAAAAAAAQ70/p8tAh6KU-OQfaAEiXteXDCpzLXe1jag6gCHM/d/logo_420_color_2x.png",
-        "url": "https://www.google.com/about/locations/los-angeles/"
-      },
-      {
-        "name": "PickTrace, Inc.",
-        "logo": "https://i.imgur.com/MTPSLJ7.png",
-        "url": "http://www.picktrace.com"
-      }
-    ]
-  },
-  "next": {
     "datetime": "Thursday August 29th, 2019 7pm",
     "date": "8/29/2019 19:00:00",
     "unixTime": 1567062000000,
@@ -62,15 +9,22 @@
       "url": "https://www.edmunds.com/careers/",
       "misc": ""
     },
-    "drinks": [],
+    "drinks": [
+      {
+        "address": "2819 Pico Blvd, Santa Monica, CA 90405",
+        "bookedShows": "2019-08-29",
+        "id": "gdlNtRz4WuGc9UOhpHLjR57VFKIg",
+        "name": "Barkowski"
+      }
+    ],
     "speakers": [
       {
-        "title": "5 advanced & shiny testing techniques",
+        "title": "Five Advanced & Shiny Testing Techniques",
         "name": "Yoni Goldberg",
         "image": "https://media.publit.io/file/l6ycvvKM3tUmZ-66FJQ5QVy.jpg",
         "twitter": "nodepractices",
-        "github": "https://github.com/i0natan/nodebestpractices",
-        "description": "Quick intro: I live in Israel and stumbled an opportunity to visit LA for a few days in August. See links with my BIO \n- https://www.goldbergyoni.com\n- https://github.com/i0natan/nodebestpractices\n\nMy love and passion is testing, I work with ~ 10 customers/year on polishing their testing skills. \n\n--\n\nTalk title: 5 advanced & shiny testing techniques\n\nTalk abstract: A year ago I was tasked to test typical Microservices-based project and the traditional tools just didn't work for me. So I went into a journey of finding modern techniques that might score better and guess what: I discovered a handful of neat techniques that rocked my testing world\n\nLet's discuss when the traditional testing tools fall short and how modern and emerging techniques can sometimes do better: In the past 10 years, the dev world had gone through dramatic changes but the testing models were left intact leaving us wondering how to test things like Microservice, and Serverless. This session demonstrates the new wave of testing tools (e.g. property-based testing, consumer-driven contract, fuzz, and others) and how they can better fit modern applications. This session aims to inspire with modern testing ideas, but it also packs practical and down-to-earth code demos",
+        "github": "goldbergyoni",
+        "description": "A year ago I was tasked to test typical Microservices-based project with modern frontend and the traditional tools just didn't work for me. So I went into a journey of finding modern techniques that might score better and guess what: I discovered a handful of neat techniques that rocked my testing world. Let's discuss when the traditional testing tools fall short and how modern and emerging techniques can sometimes do better: In the past 10 years, the dev world had gone through dramatic changes but the testing models were left intact leaving us wondering how to test things like Microservice, and Serverless. This session demonstrates the new wave of testing tools (e.g. property-based testing, consumer-driven contract, fuzz, and others) and how they can better fit modern applications. This session aims to inspire with modern testing ideas, but it also packs practical and down-to-earth code demos. \n\nAbout me - Yoni Goldberg: I'm an independent consultant who works with 500 fortune corporates and garage startups on polishing their JS & Node.js applications. I'm also the author of Node's largest best practices collection: https://github.com/i0natan/nodebestpractices",
         "video": "",
         "videoimg": ""
       },
@@ -90,6 +44,57 @@
         "name": "Edmunds",
         "logo": "https://5c01b9f7f6d5ea39c04ea7ba--jsla.netlify.com/images/hosts/host-edmunds.png",
         "url": "https://www.edmunds.com/careers/"
+      },
+      {
+        "name": "PickTrace, Inc.",
+        "logo": "https://i.imgur.com/MTPSLJ7.png",
+        "url": "http://www.picktrace.com"
+      }
+    ]
+  },
+  "next": {
+    "datetime": "Thursday September 26th, 2019 7pm",
+    "date": "9/26/2019 19:00:00",
+    "unixTime": 1569481200000,
+    "host": {
+      "address": "2301 Rosecrans Ave, El Segundo, CA 90245",
+      "name": "Publicis Sapient",
+      "url": "https://www.publicissapient.com/",
+      "misc": ""
+    },
+    "drinks": [],
+    "speakers": [
+      {
+        "title": "Type it up with Typescript",
+        "name": "Alex Tamoykin",
+        "image": "https://pbs.twimg.com/profile_images/857096216684965888/iRmlafTf_400x400.jpg",
+        "twitter": "fsproru",
+        "github": "fsproru",
+        "description": "Javascript is easy to start with and it's easy to shoot yourself in a foot due to loose typing. Typescript brings in the best of both worlds. It adds types, interfaces, inheritance, and all that good stuff which makes it a safe and more efficient language to use. With growing community around it and full Javascript support out of the box, it makes Typescript a great candidate to take your Javascript codebase to the next level. After listening to this talk you'll have a good understanding of how to use Typescript for your project.",
+        "video": "",
+        "videoimg": ""
+      },
+      {
+        "title": "Codechella: How we locked ourselves in a cabin for a week and rebuilt Joymode",
+        "name": "Jon Jandoc",
+        "image": "https://media.publit.io/file/-I8I0tp1fShCVhiEGBSw8JJO.jpg",
+        "twitter": "jokeisup",
+        "github": "jjandoc",
+        "description": "When I started at Joymode almost a year and a half ago, I was brought on as their first strictly front-end developer tasked with updating their front-end stack. Within a year, we went form a slow CoffeeScript/jQuery app on Rails, to a modern decoupled Vue app on the JAMstack. My talk goes into the motivations for migrating, my push for using Vue when the team had already convinced themselves prior to using React, and the strategies to progressively move over a large legacy codebase to a modern framework while still running a business. Finally, I can reflect on what went well and what didn't.",
+        "video": "",
+        "videoimg": ""
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Publicis Sapient",
+        "logo": "https://media.publit.io/file/pWP1HXVzrNahIdZ1jj-SBMf6.png",
+        "url": "https://www.publicissapient.com/"
+      },
+      {
+        "name": "InfluxData",
+        "logo": "https://media.publit.io/file/UWY6aU6lkT3dSkhi-V4tseMM.png",
+        "url": "influxdata.com"
       }
     ]
   }
