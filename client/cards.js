@@ -14,7 +14,7 @@ var standardCards = [
   require('./cards/slack'),
   require('./cards/volunteer'),
   require('./cards/next'),
-  require('./cards/fullstack-react')
+  require('./cards/fullstack-node')
 ]
 
 module.exports = combine(
