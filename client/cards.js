@@ -3,17 +3,17 @@ var speakerCard = require('./cards/speaker')
 var sponsorCard = require('./cards/sponsor')
 
 var standardCards = [
-  require('./cards/early'),
+  // require('./cards/early'),
   require('./cards/coc'),
-  require('./cards/drinks')(events.current.drinks[0]),
-  require('./cards/nodeschool'),
-  require('./cards/lunch'),
+  require('./cards/drinks')({name: 'js.la/zoom', address: '/stage /bar /lounge /patio'}),
+  // require('./cards/nodeschool'),
+  // require('./cards/lunch'),
   require('./cards/speakers-wanted'),
   require('./cards/youtube'),
   require('./cards/sponsors-wanted'),
   require('./cards/slack'),
   require('./cards/volunteer'),
-  require('./cards/next'),
+  // require('./cards/next'),
   require('./cards/fullstack-node')
 ]
 
