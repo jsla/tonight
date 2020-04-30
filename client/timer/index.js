@@ -9,8 +9,6 @@ fonts.add({
   Bangers: true
 })
 
-window.addEventListener('hashchange', window.location.reload.bind(window.location))
-
 var timeWords = (window.location.hash.slice(1) || '1h').split('_')
 
 var timeEnd = Date.now()
@@ -19,6 +17,8 @@ timeWords.forEach(function (w) {
 })
 
 module.exports = function () {
+  window.addEventListener('hashchange', window.location.reload.bind(window.location))
+
   var el = list()
   setInterval(update, 50)
 
