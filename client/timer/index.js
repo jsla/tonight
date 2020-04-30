@@ -1,8 +1,13 @@
 var ms = require('ms')
 var yo = require('yo-yo')
+var fonts = require('google-fonts')
 var pretty = require('pretty-ms')
 
 var rotate = require('./rotate')
+
+fonts.add({
+  Bangers: true
+})
 
 window.addEventListener('hashchange', window.location.reload.bind(window.location))
 
@@ -19,11 +24,13 @@ module.exports = function () {
   elRotate.style.top = 0
   elRotate.style.left = 0
   elRotate.style.mixBlendMode = 'screen'
-  elRotate.style.zIndex = 9000
   rotate(elRotate)
 
   function list () {
     return yo`<div style='
+      text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+      letter-spacing: 5px;
+      font-family: Bangers;
       font-size: 200%;
       display: flex;
       justify-content: space-around;
