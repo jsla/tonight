@@ -2,6 +2,8 @@ var ms = require('ms')
 var yo = require('yo-yo')
 var pretty = require('pretty-ms')
 
+var rotate = require('./rotate')
+
 window.addEventListener('hashchange', window.location.reload.bind(window.location))
 
 var timeWords = window.location.hash.slice(1) || '1h'
@@ -12,6 +14,14 @@ module.exports = function () {
   var el = list()
   setInterval(update, 50)
 
+  var elRotate = document.createElement('div')
+  elRotate.style.position = 'absolute'
+  elRotate.style.top = 0
+  elRotate.style.left = 0
+  elRotate.style.mixBlendMode = 'screen'
+  elRotate.style.zIndex = 9000
+  rotate(elRotate)
+
   function list () {
     return yo`<div style='
       font-size: 200%;
@@ -20,8 +30,9 @@ module.exports = function () {
       align-items: center; height: 100vh'>
 
       <div>
+        ${elRotate}
         <h1>
-          js.la will return
+          We will return
         </h1>
 
         <h1>
