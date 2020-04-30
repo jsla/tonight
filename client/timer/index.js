@@ -3,8 +3,6 @@ var yo = require('yo-yo')
 var fonts = require('google-fonts')
 var pretty = require('pretty-ms')
 
-var rotate = require('./rotate')
-
 fonts.add({
   Bangers: true
 })
@@ -17,6 +15,7 @@ timeWords.forEach(function (w) {
 })
 
 module.exports = function () {
+  var rotate = require('./rotate')
   window.addEventListener('hashchange', window.location.reload.bind(window.location))
 
   var el = list()

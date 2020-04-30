@@ -1,7 +1,7 @@
 var h = require('hyperscript')
 
 module.exports = h('.youtube',
-  h('img.frame', {src: 'https://i.imgur.com/VYtsULv.jpg',
+  h('img.frame', {src: '/img/js.la-youtube.png',
     style: {
       width: '80%',
       color: 'red',
