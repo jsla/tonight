@@ -11,9 +11,12 @@ fonts.add({
 
 window.addEventListener('hashchange', window.location.reload.bind(window.location))
 
-var timeWords = window.location.hash.slice(1) || '1h'
+var timeWords = (window.location.hash.slice(1) || '1h').split('_')
 
-var timeEnd = Date.now() + ms(timeWords)
+var timeEnd = Date.now()
+timeWords.forEach(function (w) {
+  timeEnd += ms(w)
+})
 
 module.exports = function () {
   var el = list()
