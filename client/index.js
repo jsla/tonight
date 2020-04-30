@@ -1,5 +1,11 @@
+var timer = require('./timer')
 var tonight = require('./tonight')
 
-window.nodeschool
-  ? tonight(require('./cards-nodeschool'))
-  : tonight(require('./cards'))
+start()
+
+function start () {
+  if (window.nodeschool) return tonight(require('./cards-nodeschool'))
+  if (window.timer) return timer()
+
+  tonight(require('./cards'))
+}

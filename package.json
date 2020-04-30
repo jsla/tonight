@@ -24,7 +24,7 @@
   "devDependencies": {
     "authentic-client": "^1.2.1",
     "browserify": "^14.0.0",
-    "budo": "^9.4.7",
+    "budo": "^11.6.3",
     "dotenv": "^5.0.0",
     "map-async": "^0.1.1",
     "moment": "^2.20.1",
@@ -35,8 +35,11 @@
     "accounting": "^0.4.1",
     "cssify": "^1.0.3",
     "hyperscript": "^2.0.2",
+    "ms": "^2.1.2",
+    "pretty-ms": "^7.0.0",
     "raf": "^3.3.0",
     "uglify-es": "^3.3.9",
+    "yo-yo": "^1.4.1",
     "zanimo": "^1.1.3"
   }
 }
