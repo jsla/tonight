@@ -8,6 +8,7 @@ var standardCards = [
   require('./cards/drinks')({name: 'js.la/zoom', address: '/stage /bar /lounge /patio'}),
   // require('./cards/nodeschool'),
   // require('./cards/lunch'),
+  require('./cards/mentorship'),
   require('./cards/speakers-wanted'),
   require('./cards/youtube'),
   require('./cards/sponsors-wanted'),
