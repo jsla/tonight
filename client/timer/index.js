@@ -7,12 +7,7 @@ fonts.add({
   Bangers: true
 })
 
-var timeWords = (window.location.hash.slice(1) || '1h').split('_')
-
-var timeEnd = Date.now()
-timeWords.forEach(function (w) {
-  timeEnd += ms(w)
-})
+var timeEnd = parseInputTime()
 
 module.exports = function () {
   var rotate = require('./rotate')
@@ -70,4 +65,18 @@ function displayTime () {
 function timeLeft () {
   var left = timeEnd - Date.now()
   return left - (left % 1000)
+}
+
+function parseInputTime () {
+  var hash = window.location.hash.slice(1) || '1h'
+  if (hash.match(/Z$/)) return new Date(hash)
+
+  var timeWords = hash.split('_')
+
+  var timeEnd = Date.now()
+  timeWords.forEach(function (w) {
+    timeEnd += ms(w)
+  })
+
+  return timeEnd
 }
