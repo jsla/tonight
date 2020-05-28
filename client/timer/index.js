@@ -21,11 +21,13 @@ module.exports = function () {
   elRotate.style.top = 0
   elRotate.style.left = 0
   elRotate.style.mixBlendMode = 'screen'
+  elRotate.style['z-index'] = -1
+
   rotate(elRotate)
 
   function list () {
     return yo`<div style='
-      text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+      text-shadow: 0px 3px 3px rgba(0, 0, 0, 1);
       letter-spacing: 5px;
       font-family: Bangers;
       font-size: 200%;
@@ -35,11 +37,7 @@ module.exports = function () {
 
       <div>
         ${elRotate}
-        <h1>
-          We will return
-        </h1>
-
-        <h1>
+        <h1 style='color: rgba(253, 243, 182, 0.95);'>
           ${displayTime()}
         </h1>
       </div>
@@ -58,8 +56,31 @@ module.exports = function () {
 
 function displayTime () {
   var left = timeLeft()
-  if (left < 30 * 1000) return 'very soon'
-  return `in ${pretty(left, { verbose: true })}`
+  if (left < 30 * 1000) {
+    return yo`
+      <span>
+        We will return <br/> very soon
+      </span>
+    `
+  }
+
+  var times = pretty(left, { verbose: true }).split(/\s+/).filter(v => v)
+    .reduce(function (memo, cur, i) {
+      if (i % 2) {
+        memo[i - 1] += ` ${cur}`
+      } else {
+        memo[i] = cur
+      }
+      return memo
+    }, [])
+
+  return yo`
+    <span>
+      We will return in <br/> ${times.map(function (t) {
+        return yo`<div>${t}</div>`
+      })}
+    </span>
+  `
 }
 
 function timeLeft () {
