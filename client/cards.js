@@ -14,7 +14,7 @@ var standardCards = [
   require('./cards/sponsors-wanted'),
   require('./cards/slack'),
   require('./cards/volunteer'),
-  // require('./cards/next'),
+  require('./cards/next'),
   require('./cards/fullstack-node')
 ]
 

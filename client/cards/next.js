@@ -17,10 +17,10 @@ module.exports = h('.next', {style: {width: '100%'}},
   ),
 
   h('div', {style: {'margin-top': '20%', clear: 'both'}},
-    h('h2', 'Join the mailing list to get tickets:'),
+    // h('h2', 'Join the mailing list to get tickets:'),
     h('h2',
       h('span.highlight', 'js.la/subscribe')
     ),
-    h('h2', 'Tickets are limited')
+    // h('h2', 'Tickets are limited')
   )
 )
