@@ -58,9 +58,15 @@ function displayTime () {
   var left = timeLeft()
   if (left < 30 * 1000) {
     return yo`
-      <span>
-        We will return <br/> very soon
-      </span>
+      <div style='height: 100vh; padding: 5%; display: flex; flex-direction: column; justify-content: space-between'>
+        <p style='font-size: 80%; width: 100vw'>
+          Join us in Rambly: <br/>
+          <span style='font-family: monospace; color: rgba(182, 243, 253, 0.95)'>http://ramb.ly/twitch/jsdotla</span>
+        </p>
+        <p style='font-size: 80%'>
+          js.la will return very soon
+        </p>
+      </div>
     `
   }
 
@@ -75,11 +81,17 @@ function displayTime () {
     }, [])
 
   return yo`
-    <span>
-      We will return in <br/> ${times.map(function (t) {
-        return yo`<div>${t}</div>`
-      })}
-    </span>
+    <div style='height: 100vh; padding: 5%; display: flex; flex-direction: column; justify-content: space-between'>
+      <p style='font-size: 80%; width: 100vw'>
+        Join us in Rambly: <br/>
+        <span style='font-family: monospace; color: rgba(182, 243, 253, 0.95)'>http://ramb.ly/twitch/jsdotla</span>
+      </p>
+      <p style='font-size: 80%'>
+        js.la will return in <br/> ${times.map(function (t) {
+          return yo`<div>${t}</div>`
+        })}
+      </p>
+    </div>
   `
 }
 
