@@ -6,6 +6,6 @@ module.exports = function ({name, address}) {
 
     h('img', {src: '/img/drinks.svg'}),
     h('h1', 'Join us in Rambly:'),
-    h('h1', 'https://ramb.ly/twitch/jsdotla'),
+    h('h1', 'https://js.la/rambly'),
   )
 }
