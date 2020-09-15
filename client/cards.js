@@ -1,6 +1,7 @@
 var events = require('./events.json')
 var speakerCard = require('./cards/speaker')
 var sponsorCard = require('./cards/sponsor')
+var sponsorVideoCard = require('./cards/sponsor-video')
 
 var standardCards = [
   // require('./cards/early'),
@@ -11,6 +12,7 @@ var standardCards = [
   require('./cards/mentorship'),
   require('./cards/speakers-wanted'),
   require('./cards/youtube'),
+  sponsorVideoCard({ name: 'Funkhaus', video: '/video/JSLA-Funkhaus-JobPost.mp4' }),
   require('./cards/sponsors-wanted'),
   require('./cards/slack'),
   require('./cards/volunteer'),
