@@ -103,6 +103,7 @@ function timeLeft () {
 function parseInputTime () {
   var hash = window.location.hash.slice(1) || '1h'
   if (hash.match(/Z$/)) return new Date(hash)
+  if (hash.match(':')) return parseSimpleTime(hash)
 
   var timeWords = hash.split('_')
 
@@ -112,4 +113,15 @@ function parseInputTime () {
   })
 
   return timeEnd
+}
+
+function parseSimpleTime (str) {
+  var hoursMinutes = str.split(':')
+  var hours = hoursMinutes[0]
+  var minutes = hoursMinutes[1]
+  var t = new Date()
+  t.setHours(hours)
+  t.setMinutes(minutes)
+  t.setSeconds(0)
+  return t
 }
