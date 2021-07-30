@@ -59,7 +59,7 @@ function displayTime () {
   if (left < 30 * 1000) {
     return yo`
       <div style='height: 100vh; padding: 5%; display: flex; flex-direction: column; justify-content: space-between'>
-        <p style='font-size: 80%; width: 100vw'>
+        <p style='font-size: 80%; width: 100vw; text-align: center'>
           Join us in Rambly: <br/>
           <span style='font-family: monospace; color: rgba(182, 243, 253, 0.95)'>http://js.la/rambly</span>
         </p>
@@ -81,7 +81,7 @@ function displayTime () {
     }, [])
 
   return yo`
-    <div style='height: 100vh; padding: 5%; display: flex; flex-direction: column; justify-content: space-between'>
+    <div style='height: 100vh; padding: 5%; padding-left: 0; padding-right: 0; display: flex; flex-direction: column; justify-content: space-between'>
       <p style='font-size: 80%; width: 100vw'>
         Join us in Rambly: <br/>
         <span style='font-family: monospace; color: rgba(182, 243, 253, 0.95)'>http://js.la/rambly</span>
