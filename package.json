@@ -29,7 +29,7 @@
     "map-async": "^0.1.1",
     "moment": "^2.20.1",
     "standard": "^8.6.0",
-    "surge": "^0.18.0"
+    "surge": "^0.23.1"
   },
   "dependencies": {
     "accounting": "^0.4.1",
